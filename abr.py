@@ -293,3 +293,13 @@ if __name__ == "__main__":
     arbre.supprimer(30)
     arbre.afficher()
     print("Parcours infixe après suppression :", arbre.parcours_infixe())
+
+
+# ---------------------------------------------------------------------
+# Documentation ajoutee par Tahiana - parcours postfixe, largeur, affichage
+# ---------------------------------------------------------------------
+# parcours_postfixe() : parcourt gauche -> droite -> racine.
+#   Utilise notamment pour supprimer un arbre en memoire ou evaluer
+#   des expressions arithmetiques representees sous forme d'arbre.
+# parcours_largeur() : parcours par niveau (BFS) avec une file (deque).
+# afficher() : affichage graphique de l'arbre en mode texte dans la console.
